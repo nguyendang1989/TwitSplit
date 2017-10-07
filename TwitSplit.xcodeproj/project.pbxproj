@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15245801BDC0E0D46B69A722 /* Pods_TwitSplitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C604862DCB881001CDA0F2 /* Pods_TwitSplitTests.framework */; };
+		4E91238FAC6F3B297C47316A /* Pods_TwitSplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256907A10050324BBF39BD53 /* Pods_TwitSplit.framework */; };
 		8474B29F1F83DD63006EFA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474B29E1F83DD63006EFA13 /* AppDelegate.swift */; };
 		8474B2A11F83DD63006EFA13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474B2A01F83DD63006EFA13 /* ViewController.swift */; };
 		8474B2A41F83DD63006EFA13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8474B2A21F83DD63006EFA13 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		256907A10050324BBF39BD53 /* Pods_TwitSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitSplit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C604862DCB881001CDA0F2 /* Pods_TwitSplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitSplitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8474B29B1F83DD63006EFA13 /* TwitSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8474B29E1F83DD63006EFA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8474B2A01F83DD63006EFA13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		8474B2AF1F83DD63006EFA13 /* TwitSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8474B2B31F83DD63006EFA13 /* TwitSplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitSplitTests.swift; sourceTree = "<group>"; };
 		8474B2B51F83DD63006EFA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A658B3CB7F52257930FB38CD /* Pods-TwitSplitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplitTests/Pods-TwitSplitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A913D4A0299FED8C97A51BE8 /* Pods-TwitSplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit.release.xcconfig"; sourceTree = "<group>"; };
+		BCEB88056E535B1C3926B9CC /* Pods-TwitSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit.debug.xcconfig"; sourceTree = "<group>"; };
+		CECD88FDA0DD719EBF123D61 /* Pods-TwitSplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplitTests/Pods-TwitSplitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E91238FAC6F3B297C47316A /* Pods_TwitSplit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15245801BDC0E0D46B69A722 /* Pods_TwitSplitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		538765537B3A987570DDCFE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB88056E535B1C3926B9CC /* Pods-TwitSplit.debug.xcconfig */,
+				A913D4A0299FED8C97A51BE8 /* Pods-TwitSplit.release.xcconfig */,
+				A658B3CB7F52257930FB38CD /* Pods-TwitSplitTests.debug.xcconfig */,
+				CECD88FDA0DD719EBF123D61 /* Pods-TwitSplitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8474B2921F83DD63006EFA13 = {
 			isa = PBXGroup;
 			children = (
 				8474B29D1F83DD63006EFA13 /* TwitSplit */,
 				8474B2B21F83DD63006EFA13 /* TwitSplitTests */,
 				8474B29C1F83DD63006EFA13 /* Products */,
+				538765537B3A987570DDCFE4 /* Pods */,
+				F4A029BF51B67DBF7A35E063 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,15 @@
 			path = TwitSplitTests;
 			sourceTree = "<group>";
 		};
+		F4A029BF51B67DBF7A35E063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				256907A10050324BBF39BD53 /* Pods_TwitSplit.framework */,
+				54C604862DCB881001CDA0F2 /* Pods_TwitSplitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8474B2B81F83DD63006EFA13 /* Build configuration list for PBXNativeTarget "TwitSplit" */;
 			buildPhases = (
+				83EBC4266E471291B6E44124 /* [CP] Check Pods Manifest.lock */,
 				8474B2971F83DD63006EFA13 /* Sources */,
 				8474B2981F83DD63006EFA13 /* Frameworks */,
 				8474B2991F83DD63006EFA13 /* Resources */,
+				59352675849D2D8249059D4D /* [CP] Embed Pods Frameworks */,
+				3F97393EE8825E82C982C664 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8474B2BB1F83DD63006EFA13 /* Build configuration list for PBXNativeTarget "TwitSplitTests" */;
 			buildPhases = (
+				AC227928C25DFB6020305528 /* [CP] Check Pods Manifest.lock */,
 				8474B2AB1F83DD63006EFA13 /* Sources */,
 				8474B2AC1F83DD63006EFA13 /* Frameworks */,
 				8474B2AD1F83DD63006EFA13 /* Resources */,
+				CBEBB4A5AAA65028F34B3513 /* [CP] Embed Pods Frameworks */,
+				DF3E3869221CC4EE6EA8F65F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,110 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F97393EE8825E82C982C664 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59352675849D2D8249059D4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83EBC4266E471291B6E44124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitSplit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC227928C25DFB6020305528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitSplitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBEBB4A5AAA65028F34B3513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwitSplitTests/Pods-TwitSplitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3E3869221CC4EE6EA8F65F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwitSplitTests/Pods-TwitSplitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8474B2971F83DD63006EFA13 /* Sources */ = {
@@ -335,6 +477,7 @@
 		};
 		8474B2B91F83DD63006EFA13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEB88056E535B1C3926B9CC /* Pods-TwitSplit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -348,6 +491,7 @@
 		};
 		8474B2BA1F83DD63006EFA13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A913D4A0299FED8C97A51BE8 /* Pods-TwitSplit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -361,6 +505,7 @@
 		};
 		8474B2BC1F83DD63006EFA13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A658B3CB7F52257930FB38CD /* Pods-TwitSplitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -375,6 +520,7 @@
 		};
 		8474B2BD1F83DD63006EFA13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECD88FDA0DD719EBF123D61 /* Pods-TwitSplitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
